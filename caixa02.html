@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(165, 161, 161);
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 19px;
+        }
+
+        nav {
+            background-color: gray;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: grey;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        article {
+            background-color: lightgrey;
+        }
+
+        article > aside {
+            background-color: darkgrey;
+            padding: 0,3px;
+            font-size: 16px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DIARIO DE ANGOLA</h1>
+        <nav>
+            <a href="#">Desporto</a>
+            <a href="#">Actualidade</a>
+            <a href="#">Sociedade</a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Politica</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Desporto">
+            <h2>Noticias Sobre Desporto</h2> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint placeat, libero cupiditate autem optio officiis, molestias fugit adipisci alias nemo, incidunt reprehenderit asperiores quaerat saepe laudantium. Iusto, vitae veniam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam inventore facilis consequatur, perspiciatis fuga magni, dolore sint vel culpa dicta debitis fugiat placeat a, officia modi ab quam quidem nemo?</p> 
+        
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aut. Repellendus nostrum culpa deserunt vitae reiciendis ea. Corporis facilis tempora cumque omnis quod provident, animi cum unde qui dolorum aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat illum distinctio quae, quidem dolores ipsa, dolorum praesentium autem laudantium delectus iusto consectetur odit? Esse exercitationem voluptas ratione quisquam quos?</p>
+                <aside>
+                    <p>Artigo Publicado por José Ferraz</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Pagina Web Desenvolvido por Amâncio Zangui</p>
+    </footer>
+</body>
+</html>
